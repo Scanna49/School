@@ -1,0 +1,75 @@
+.separator
+{
+  margin-top: 2px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 22px;
+}
+
+.separator span::before
+{
+  right: 100%;
+  margin-right: 8px;
+}
+
+.separetor span::after
+{
+  left: 100%;
+  margin-left: 8px;
+}
+
+.separator span::before,
+.separator span::after
+{
+  overflow-x: auto!important;
+  content: "";
+  position: absolute;
+  height: 6px;
+  border-bottom: 2px solid #383A3C;
+  top: 5px;
+  width: 40px;
+}
+
+.separator span
+{
+  position: relative;
+  display: inline-block;
+}
+
+.separatordark
+{
+  margin-top: 2px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 22px;
+}
+
+.separatordark span::before
+{
+  right: 100%;
+  margin-right: 8px;
+}
+
+.separetordark span::after
+{
+  left: 100%;
+  margin-left: 8px;
+}
+
+.separatordark span::before,
+.separatordark span::after
+{
+  overflow-x: auto!important;
+  content: "";
+  position: absolute;
+  height: 6px;
+  border-bottom: 2px solid #D4CEBF;
+  top: 5px;
+  width: 40px;
+}
+
+.separatordark span
+{
+  position: relative;
+  display: inline-block;
+}

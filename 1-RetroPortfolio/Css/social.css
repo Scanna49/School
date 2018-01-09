@@ -1,0 +1,46 @@
+.icon
+{
+  margin-left: 20%;
+  height: 150px;
+  width: 150px;
+  display: flex!important;
+  justify-content:flex-start;
+  align-items: center;
+  color: #e6e1d0;
+}
+
+.bg-icon
+{
+  background-color: #D35244;
+  -webkit-box-shadow: inset 0 0 0 4px #D35244, inset 0 0 0 8px #F5EEE3;
+  -moz-box-shadow: inset 0 0 0 4px #D35244, inset 0 0 0 8px #F5EEE3;
+  -o-box-shadow: inset 0 0 0 4px #D35244, inset 0 0 0 8px #F5EEE3;
+  box-shadow: inset 0 0 0 4px #D35244,
+  inset 0 0 0 8px #F5EEE3;
+  margin: auto;
+}
+
+
+.social
+{
+  height: 150px;
+  width: 150px;
+  display: flex!important;
+  justify-content: center;
+  align-items: center;
+  color: #484A4D;
+}
+
+.centered
+{
+  display:block;
+  margin-left:20%;
+}
+
+
+.circle
+{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
